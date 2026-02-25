@@ -4,7 +4,7 @@ import joblib
 import openai
 from flask import Flask, render_template, jsonify
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 svm_model = joblib.load("svm_model.pkl")
 scaler = joblib.load("scaler.pkl")
@@ -78,4 +78,5 @@ def get_sensor_data():
     })
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=5000, debug=True)
