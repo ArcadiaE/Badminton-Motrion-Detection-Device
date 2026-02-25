@@ -21,8 +21,7 @@ The system is custom-encapsulated in the form of a wristwatch.
 * **Arduino:** Requires the ArduinoBLE library and the SparkFun MAX3010x Sensor Library.
 * **MATLAB:** The MATLAB BLE toolbox was employed for real-time data collection.
 * **Python 3.x:** ```bash
-  pip install pandas scikit-learn joblib bleak flask openai
-  '''
+  pip install pandas scikit-learn joblib bleak flask openai```
 
 ## System Workflow
 1. **Data Acquisition:** During this stage, the IMU continuously reads tri-axial motion data and transmits it to the computer, where it is stored as CSV files.
