@@ -73,7 +73,7 @@ import pandas as pd
 
 nest_asyncio.apply()
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 app = Flask(__name__)
 
@@ -248,3 +248,4 @@ get_sensor_data.roll_velocity_buffer = []
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
+
