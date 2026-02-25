@@ -11,7 +11,7 @@ import random
 import pandas as pd
 
 
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 model_dir = r"F:\\modelTrain\\model"
 svm_model = joblib.load(os.path.join(model_dir, "fix2_svm_model.pkl"))
@@ -105,3 +105,4 @@ def get_sensor_data():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+
