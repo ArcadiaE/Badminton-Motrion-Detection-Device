@@ -20,7 +20,8 @@ The system is custom-encapsulated in the form of a wristwatch.
 ## Dependencies
 * **Arduino:** Requires the ArduinoBLE library and the SparkFun MAX3010x Sensor Library.
 * **MATLAB:** The MATLAB BLE toolbox was employed for real-time data collection.
-* **Python 3.x:** ```bash
+* **Python 3.x:**
+  ```bash
   pip install pandas scikit-learn joblib bleak flask openai
 
 ## System Workflow
